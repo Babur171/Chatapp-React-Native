@@ -88,7 +88,7 @@ const App = (props) => {
         {/* </View> */}
       </ScrollView>
       <Modal
-        style={{ margin: 0, }}
+        style={{ margin: 0}}
         animationIn="slideInUp"
         onBackButtonPress={() => { setShowBackGround(!showBackGround) }}
         onBackdropPress={() => { setShowBackGround(!showBackGround) }}
@@ -235,9 +235,9 @@ const styles = StyleSheet.create({
   modalStyle:{
     flex: 1, 
     justifyContent: 'flex-start', 
-    backgroundColor: 'rgba(0, 0, 0, 0.5)', 
+    backgroundColor: '#383838', 
     alignItems: 'flex-end',
-    paddingRight:10
+    paddingRight:10,
   },
   chatTextWrapper: {
     backgroundColor: '#0073cf',
